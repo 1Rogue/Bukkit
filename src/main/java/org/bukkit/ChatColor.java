@@ -98,7 +98,11 @@ public enum ChatColor {
     /**
      * Resets all previous chat colors or formats.
      */
-    RESET('r', 0x15);
+    RESET('r', 0x15),
+    /**
+     * Allows for escaping between characters.
+     */
+    ESCAPE('x', 0x1B);
 
     /**
      * The special character which prefixes all chat colour codes. Use this if you need to dynamically
